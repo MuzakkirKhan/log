@@ -1,0 +1,71 @@
+{
+  "signup": [
+    {
+      "name": "dfdsf",
+      "number": "56",
+      "emailid": "muza@gmail.com",
+      "password": "muza",
+      "id": 1
+    },
+    {
+      "name": "muza",
+      "number": "4543",
+      "emailid": "muza@gmail.con",
+      "password": "muzaa",
+      "id": 2
+    },
+    {
+      "name": "sara",
+      "number": "45",
+      "emailid": "sara@gmail.com",
+      "password": "saara",
+      "id": 3
+    },
+    {
+      "name": "saara",
+      "number": "345",
+      "emailid": "saara@gmail.com",
+      "password": "sara",
+      "id": 4
+    },
+    {
+      "name": "beta",
+      "number": "435",
+      "emailid": "beta@gmail.com",
+      "password": "beta",
+      "id": 5
+    },
+    {
+      "name": "Abdul Mannan",
+      "number": "345",
+      "emailid": "muzu@gmail.com",
+      "password": "muza",
+      "id": 6
+    },
+    {
+      "name": "Chandu",
+      "number": "896",
+      "emailid": "muzaa@gmail.com",
+      "password": "muza",
+      "id": 7
+    },
+    {
+      "name": "Muza",
+      "number": "345",
+      "emailid": "muzak@gmail.com",
+      "password": "muza",
+      "id": 8
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "signupPosts": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

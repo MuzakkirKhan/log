@@ -1,0 +1,60 @@
+/* You can add global styles to this file, and also import other style files */
+
+// @media only screen and (max-width:400px){
+//     #login{
+//         width: 300px !important;
+//     }
+// }
+
+// @media only screen and (max-width:500px) {
+//     /* styles for browsers larger than 1440px; */
+//     #login1{
+//         width: 300px;
+//     }
+// }
+
+
+// @media only screen and (max-width:500px) {
+//     /* styles for browsers larger than 1440px; */
+//     #login2{
+//         width: 300px;
+//     }
+// }
+
+@media only screen and (max-width:500px) {
+    /* styles for browsers larger than 1440px; */
+    #login3, h6{
+        width: 300px;
+        font-weight: 300;
+        text-align:start;
+    }
+}
+
+
+@media only screen and (max-width:800px) {
+    /* styles for browsers larger than 1440px; */
+    #DashboardTitle, h1{
+        width: 520px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+
+@media only screen and (max-width:770px) {
+    /* styles for browsers larger than 1440px; */
+    #DashboardTitle, h1{
+        width: 450px;
+        font-weight: 300;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width:500px) {
+    /* styles for browsers larger than 1440px; */
+    #DashboardTitle, h1{
+        width: 300px;
+        font-weight: 180;
+        text-align: center;
+    }
+}

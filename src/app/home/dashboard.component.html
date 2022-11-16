@@ -1,0 +1,47 @@
+<div class="container">
+    <div class="row">
+        <div class="col-md-10" id="DashboardTitle">
+            <h1 style="background-color:cornflowerblue; color:aliceblue">Welcome to the Login Project </h1>
+            <br>
+            <br>
+            <br><button style="background-color:floralwhite "  type="button" (click)=" getUsers()">CLick here to get the Users List</button>
+            
+            
+            <br>
+            <br>
+            <br>
+            
+            
+            
+            <table border="2" align="center">
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th> 
+                    <th>Phone Num</th> 
+                    <th>Email ID</th>
+                     <th>Password</th>
+                     <th>Delete</th>
+                </tr>
+                <tr *ngFor="let data of users">
+                    <td>{{data.id}}</td> <td>{{data.name}}</td> <td>{{data.number}}</td>
+                    <td>{{data.emailid}}</td><td>{{data.password}}</td>
+                    <td><button type="button" (click)="delete(data.id)">Delete</button></td>
+                </tr>
+            </table>
+            <br>
+            <br>
+            
+            <button type="button" (click)="logout()">Logout</button>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+<!-- 
+<td><button type="button" (click)="delete(id:number)">Delete</button></td> -->
+
+<!-- <a [routerLink]="['/bookdetails',data.id]">Details</a> -->
